@@ -2,6 +2,7 @@ export function markupGallery(array) {
   return array.map((item) => markupItemGallery(item)).join(""); 
 }        
 
+
 function markupItemGallery(gallery_item) {
   const {webformatURL, largeImageURL, tags, likes, views, comments, downloads} = gallery_item
   return (
